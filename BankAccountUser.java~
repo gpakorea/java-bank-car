@@ -1,0 +1,16 @@
+/*
+ * Project: BankAccountUser.java
+ * Description: This is a bank account user class.
+ * Name: Aaron Snowberger
+ * Date: Oct 1, 2015
+ */
+
+public class BankAccountUser {
+  
+  public static void main( String[] args) {
+    
+    
+    
+  } // end main method
+  
+} // end class
