@@ -1,0 +1,48 @@
+/*
+ * Class: Car.java
+ */
+
+public class Car {
+  
+  double mpg;     // how many miles/gallon
+  double gallons; // how many gallons in the tank
+  
+  // 20 liters in the tank
+  // 25 km/liter
+  // whole tank = 500 km
+  
+  public Car( double milespg ) {
+    
+    this.mpg = milespg;
+    this.gallons = 0;
+    
+  } // end constructor method
+  
+  
+  public void fillUp( double fill ) {
+    
+    // fillUp() adds gas to the tank
+    this.gallons += fill;
+  
+  }
+  
+  
+  public void takeTrip( double miles ) {
+    
+    // removes gallons from the tank based on number of miles
+    // traveled 100 km (param)
+    // how many liters to subtract from our tank using kmpl
+    double gallonsToSubtract = miles / mpg;
+    this.gallons -= gallonsToSubtract;
+    
+  }
+  
+  
+  public double reportFuel() {
+   
+    // tells how much gas is left
+    return gallons;
+    
+  }
+  
+} // end class
