@@ -75,10 +75,14 @@ public class Car {
   
   public String bragOnYourCar() {
     
-    System.out.println( model );
-    
     String output = "";
-    output = "Dude, I just bought this sweet " + color + " " + year + " " + make + " " + model + "! " + "It has " + horsepower + " horsepower, " + "gets " + mpg + " miles per gallon, " + "and has a " + gallons + " gallon gas tank! " + "And it goes from zero to sixty in " + zts + " seconds! " + "It's the greatest car I've ever owned!";
+    output += "Dude, I just bought this sweet ";
+    output += color + " " + year + " " + make + " " + model + "! ";
+    output += "It has " + horsepower + " horsepower, ";
+    output += "gets " + mpg + " miles per gallon, ";
+    output += "and has a " + gallons + " gallon gas tank! ";
+    output += "And it goes from zero to sixty in " + zts + " seconds! ";
+    output += "It's the greatest car I've ever owned!";
     
     return output;
     
